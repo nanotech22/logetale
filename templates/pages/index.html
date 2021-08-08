@@ -1,0 +1,171 @@
+{% extends "layouts/layout.html" %}
+
+
+
+{% block body %}
+
+
+<div class="bgimg-1">
+    <!--Scroll down and click-->
+    <div class="caption">
+    <span class="border" style="font-size:25px; color: white; opacity: 1.0;">LEO HERR &darr;</span>
+    </div>
+  </div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+
+    <div class="card">
+        <div class="card-header">
+            <h2>About Me</h2>
+        </div>
+        <div class="card-body">
+            <p>I'm a postdoc at the University of Utah studying algebraic geometry,
+            especially log geometry, Gromov-Witten theory, intersection theory, deformation theory, and number theory. I also like higher categories. </p>
+            My CV:
+            <a href="{{ url_for('static', filename='pdf/curriculum_vitae.pdf') }}">Curriculum Vitae</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h2>Papers</h2>
+        </div>
+        <div class="card-body">
+            <ul>
+        
+            <li> Log intersection theory:
+            <ul>
+            <li><i>The Log Product Formula</i> <a href="https://arxiv.org/abs/1908.04936">arXiv (2019)</a>, Accepted.</li>
+            <li><i>The Log Product Formula in Quantum K-theory</i> <a href = "https://arxiv.org/abs/2012.09379">arXiv (2020)</a>, Submitted.</li>
+            </ul>
+            </li>
+        
+            <li> Gromov-Witten theory:
+            <ul>
+            <li><i>Costello's Pushforward Formula: Errata and Generalization</i> <a href="https://arxiv.org/abs/2103.10348"> arXiv (2021)</a>, Submitted.</li>
+            </ul>
+            </li>
+        
+            <li> Deformation theory:
+            <ul>
+            <li>
+            <i>Deformations of Modules Through Butterflies and Gerbes</i> <a href="https://arxiv.org/abs/1712.01384">arXiv (2017)</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0022404919301288">Published Version (2020)</a>.</li>
+            </li>
+            </ul>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+            <h2>Collaborators</h2>
+        </div>
+        <div class="card-body">
+            <a href="http://math.colorado.edu/~jonathan.wise/">Jonathan Wise</a>,
+            <a href="https://www.math.utah.edu/~yplee/">Y.P. Lee</a>,
+            <a href="https://people.math.ethz.ch/~rahul/">Rahul Pandharipande</a>,
+            <a href="https://www.math.utah.edu/~defernex/">Tommaso de Fernex</a>,
+            <a href="http://math.huji.ac.il/~samouilmolcho/">Sam Molcho</a>,
+            <a href="https://math.colorado.edu/~sebo2151/">Sebastian Bozlee</a>,
+            <a>Lawrence Barrott</a>,
+            <a href="https://mcfaddin.github.io/">Patrick McFaddin</a>,
+            <a href="https://www.andrewkobin.com/">Andrew Kobin</a>,
+            <a href="https://sites.google.com/view/vaideheethatte">Vaidehee Thatte</a>,
+            <a href="http://math.colorado.edu/~hwsmith/">Hanson Smith</a>,
+            <a href="http://math.colorado.edu/~saar7867/">Sarah Arpin</a>,
+            <a>You-Cheng Chou</a>,
+            ...
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h2>Teaching</h2>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                I have years of experience teaching and designing courses for all levels of math. I've taught Calculus 1, 2, and 3, Introduction to Number theory,
+                Modern Algebra 2 (Rings, Modules, Fields), Linear Algebra, and more. For details, see my <a href="{{ url_for('static', filename='pdf/curriculum_vitae.pdf') }}">Curriculum Vitae</a>.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h2>Student Review Projects</h2>
+        </div>
+
+        <div class="card-body">
+            <p class="card-text">
+                Some students I had the privilege of working with with made excellent summary projects for algebra-related topics. They may serve as gentle undergraduate-friendly introductions to topics of interest.
+                
+            </p>
+            <p class="card-text">
+                <ul>
+                <li><a href="Sheaves and Cech Cohomology -- Sidney and Daniel.pdf">Sheaves and Cech Cohomology</a></li>
+                <li><a href="Topology, fundamental groups, and category theory -- Wolf, Kenzie, Maxwell.pdf">Topology, fundamental groups, and category theory</a></li>
+                <li><a href="Cryptography -- Supreme.pdf">Cryptography</a></li>
+                <li><a href="p-adic numbers -- Lam.pdf"><i>p</i>-adic numbers</a></li>
+                <li><a href="Math and Music Theory -- Hank.pdf">Math and Music Theory</a></li>
+                <li><a href="Tensors and homology -- Campbell and Annie.pdf">Tensors and Homology</a></li>
+                </ul>
+            </p>
+            <p class="card-text">Beware typos/errors.</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+  
+
+  
+  
+  <div class="bgimg-2">
+    <!--Composer-->
+    <div class="caption">
+    <span class="border" style="font-size:25px"><a style="color: white" href="">RESEARCH</a></span>
+    </div>
+
+    <div class="card research">   
+        <div class="card-header">
+            <h2>Contact</h2>
+        </div> 
+
+        <div class="card-group">
+
+            <div class="card">
+                <div class="card-body">
+                    <ADDRESS>
+                        Leo Herr<BR>
+                        University of Utah<BR>
+                        Department of Mathematics, 125<BR>
+                        155 S 1400 E RM 233<BR>
+                        Salt Lake City, UT, 84112-0090, USA
+                    </ADDRESS>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                        Email: herr AT math DOT utah DOT edu<BR>
+                        (the old "leo DOT herr AT colorado DOT edu" works also.)<BR>
+                        Tel:  +1 801 588 5793<BR>
+                        FAX:  +1 801 581 4148<BR>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  
+ 
+
+  
+{% endblock %}

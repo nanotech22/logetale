@@ -9,3 +9,35 @@ app = Flask(__name__)
 
 app.config.from_object('config.Config')
 
+
+
+
+@app.route("/")
+def index():
+    return render_template("pages/index.html", pgname="Home", no_navbar=True, added_css = "index.css")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    app.run()
+
+
