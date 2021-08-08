@@ -61,54 +61,21 @@
   {% endfor %}
         {% if no_navbar %}
         {% else %}
-        <nav class="navbar-brand d-sm-flex">
-            <div class="flex-fill"><a href={{ url_for("/") }} style="font-weight: bold; color:rgb(70, 56, 131);">Home</a></div>
-            <div class="flex-fill"><a href={{ url_for("/") }}>Research</a></div>
-            <div class="flex-fill"><a href={{ url_for("personal") }}>Personal</a></div>
-            <div class="flex-fill"><a href={{ url_for("contact") }}>Contact Me</a></div>
-        </nav>
+        <div class="card sticky-top">
+          <ul class="nav justify-content-center nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='{{ url_for("personal") }}'>Personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='{{ url_for("contact") }}'>Contact</a>
+            </li>
+          </ul>
+          
+        </div>
 
-        <!--
-        <nav class="navbar-brand d-sm-flex">
-            <div class={% if request.endpoint == 'index' %} 'flex-fill active' {% else %} "flex-fill" {% endif %}><a href={{ url_for("index") }} style="font-weight: bold; color:rgb(70, 56, 131);">Home</a></div>
-            <div class="flex-fill"><a href={{ url_for("musicalspg") }}>Composer</a></div>
-            <div class="flex-fill"><a href={{ url_for("musicdirectorpg") }}>Music Director</a></div>
-            <div class="flex-fill"><a href={{ url_for("resolutionspg") }}>Resolutions</a></div>
-            <div class="dropdown flex-fill"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Personal</a>
-              <ul class="dropdown-menu">
-                <li><a href={{ url_for('aboutpg') }}>About Me</a></li>
-                <li class="dropdown-divider"></li>
-                <li><a href={{ url_for("teachpg") }}>Teacher</a></li>
-                <li><a href={{ url_for("paintpg") }}>Painter</a></li>
-                <li><a href={{ url_for("resumepg") }}>Education/Training</a></li>
-                <li><a href={{ url_for("spiritpg") }}>Spirit</a></li>
-                <li><a href={{ url_for("gardenpg") }}>Gardener</a></li>
-              </ul>
-            </div>
-            <div class="flex-fill"><a href={{ url_for("contactpg") }}>Contact</a></div>
-        </nav>-->
-        
-        <!--
-        <div class="row" id="headerimage" 
-            {% if banner_img %}style = "background-image: url(../static/img/banner_imgs/{{ banner_img }}); 
-              {% if banner_img_style %}{{ banner_img_style }}
-              {% else %}background-size: 100%;
-              {% endif %}"
-            {% endif %}>
-          <div class="col"></div>
-          <span {% if titletextbox %}style = "background-color: black;"{% endif %}><div class="col" {% if banner_text_color %}style="color:{{ banner_text_color }};"{% endif %}>
-            <h1>{{ pgname }} <br/>-->
-
-          <!-- Took out "Catherine" subtitle
-          {% if nocatherinesubtitle %}
-          {% else %}
-            <small class="font-weight-light">Catherine</small>
-          {% endif %}-->
-          <!--
-          </h1>
-          </div></span>
-          <div class="col"></div>
-        </div>-->
         {% endif %}
 
         
