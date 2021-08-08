@@ -32,6 +32,9 @@ def personal():
 
 
 
+
+
+
 class LoginForm(FlaskForm):
     username = StringField('Name', validators=[DataRequired()])
     email = StringField('Email', validators=[DataRequired(), Email(message="Not a valid email address.")])
