@@ -21,5 +21,5 @@ class Config():
     MAIL_DEFAULT_SENDER = "websitenowgf@gmail.com"
 
     #recaptcha
-    RECAPTCHA_PUBLIC_KEY = ""
-    RECAPTCHA_PRIVATE_KEY = ""
+    #RECAPTCHA_PUBLIC_KEY = ""
+    #RECAPTCHA_PRIVATE_KEY = ""
