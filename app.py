@@ -10,6 +10,10 @@ app = Flask(__name__)
 app.config.from_object('config.Config')
 
 
+#Mail 
+mail = Mail(app)
+
+
 
 
 @app.route("/")
@@ -32,7 +36,7 @@ class LoginForm(FlaskForm):
     username = StringField('Name', validators=[DataRequired()])
     email = StringField('Email', validators=[DataRequired(), Email(message="Not a valid email address.")])
     text = TextAreaField('Message', validators=[DataRequired()])
-    recaptcha = RecaptchaField()
+#    recaptcha = RecaptchaField()
     submit = SubmitField('Send')
 
 
@@ -55,7 +59,7 @@ def contact():
         msg.html = (message_html)
         mail.send(msg)
         flash(f'Your message was sent.')
-        return redirect(url_for('/'))
+        return redirect(url_for('index'))
     else:
         return render_template("pages/contact.html", pgname="Contact", no_navbar=True, form=form, added_css="css/contact.css")
 

@@ -7,8 +7,7 @@ class Config():
 
 
     #mail api stuff
-    SENDGRID_API_KEY=""
-    MAIL_DEFAULT_SENDER=""
+    SENDGRID_API_KEY="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"
 
     #secret key for forms, prevent CSRF attack
     SECRET_KEY = "2Ogp0L9O0Ssq1YXkMIPe"
