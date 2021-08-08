@@ -119,6 +119,13 @@
 
     </div>
 
+    <div class="card">
+        <div class="card-header"><h2>Personal</h2></div>
+        <div class="card-body">
+            <p class="card-text">Visit my <a href="{{ url_for('personal') }}">personal page</a> for more about Leo Herr.</p>
+        </div>
+    </div>
+
 </div>
 
 
@@ -127,41 +134,10 @@
   
   
   <div class="bgimg-2">
-    <!--Composer-->
+
     <div class="caption">
-    <span class="border" style="font-size:25px"><a style="color: white" href="">RESEARCH</a></span>
-    </div>
-
-    <div class="card research">   
-        <div class="card-header">
-            <h2>Contact</h2>
-        </div> 
-
-        <div class="card-group">
-
-            <div class="card">
-                <div class="card-body">
-                    <ADDRESS>
-                        Leo Herr<BR>
-                        University of Utah<BR>
-                        Department of Mathematics, 125<BR>
-                        155 S 1400 E RM 233<BR>
-                        Salt Lake City, UT, 84112-0090, USA
-                    </ADDRESS>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                        Email: herr AT math DOT utah DOT edu<BR>
-                        (the old "leo DOT herr AT colorado DOT edu" works also.)<BR>
-                        Tel:  +1 801 588 5793<BR>
-                        FAX:  +1 801 581 4148<BR>
-                
-                </div>
-            </div>
+        <span class="border" style="font-size:25px;"><a href="{{ url_for('contact') }}" style="color: white">Contact Me</a></span>
         </div>
-    </div>
   </div>
   
   
