@@ -1,11 +1,15 @@
-from flask import Flask, render_template, url_for, Markup, request, flash, redirect
+from flask import Flask, render_template, url_for, Markup, request, flash, session, redirect
 from flask_mail import Mail, Message
 from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired, Email
 from config import Config
 
+#sitemap SEO
+from flask_sitemap import Sitemap
+
 app = Flask(__name__)
+ext = Sitemap(app=app)
 
 app.config.from_object('config.Config')
 
@@ -85,7 +89,10 @@ def contact():
 
 
 
-
+@ext.register_generator
+def index():
+    # Not needed if you set SITEMAP_INCLUDE_RULES_WITHOUT_PARAMS=True
+    yield 'index', {}
 
 
 
