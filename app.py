@@ -6,6 +6,7 @@ from wtforms.validators import DataRequired, Email
 from config import Config
 import os
 
+
 #sitemap SEO
 from flask_sitemap import Sitemap
 #to get https connection
