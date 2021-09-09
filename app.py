@@ -4,10 +4,16 @@ from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired, Email
 from config import Config
+#for sitemap SEO stuff
+from flask_sitemap import Sitemap
 
 app = Flask(__name__)
 
 app.config.from_object('config.Config')
+
+
+#sitemap SEO
+ext = Sitemap(app=app)
 
 
 #Mail 
@@ -83,8 +89,10 @@ def contact():
 
 
 
-
-
+#sitemap SEO
+@ext.register_generator
+def index():
+    yield 'index', {}
 
 
 
