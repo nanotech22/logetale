@@ -9,7 +9,7 @@ import os
 #sitemap SEO
 from flask_sitemap import Sitemap
 #to get https connection
-from flask_talisman import Talisman
+#from flask_talisman import Talisman
 
 app = Flask(__name__)
 ext = Sitemap(app=app)
@@ -17,8 +17,8 @@ ext = Sitemap(app=app)
 app.config.from_object('config.Config')
 
 #makes it https instead of http
-if 'DYNO' in os.environ: # only trigger SSLify if the app is running on Heroku
-    Talisman(app)
+#if 'DYNO' in os.environ: # only trigger SSLify if the app is running on Heroku
+#    Talisman(app)
 
 
 #Mail 
