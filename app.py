@@ -4,14 +4,21 @@ from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired, Email
 from config import Config
+import os
 
 #sitemap SEO
 from flask_sitemap import Sitemap
+#to get https connection
+from flask_talisman import Talisman
 
 app = Flask(__name__)
 ext = Sitemap(app=app)
 
 app.config.from_object('config.Config')
+
+#makes it https instead of http
+if 'DYNO' in os.environ: # only trigger SSLify if the app is running on Heroku
+    Talisman(app)
 
 
 #Mail 
