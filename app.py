@@ -29,14 +29,12 @@ mail = Mail(app)
 
 @app.route("/")
 def index():
-    return render_template("pages/index.html", pgname="Home", added_css = "index.css", 
-                            metadesc = "Home page of mathematician Leo Herr. Read about Leo's research and teaching or find easy ways to contact him.")
+    return render_template("pages/index.html", pgname="Home", added_css = "index.css")
 
 
 @app.route('/personal')
 def personal():
-    return render_template('pages/personal.html', pgname="Personal", added_css="personal.css",
-                            metadesc = "Personal page of Leo Herr. Read about his hobbies and listen to his music. ")
+    return render_template('pages/personal.html', pgname="Personal", added_css="personal.css")
 
 
 
@@ -75,8 +73,7 @@ def contact():
         flash(f'Your message was sent.')
         return redirect(url_for('index'))
     else:
-        return render_template("pages/contact.html", pgname="Contact", form=form, added_css="css/contact.css",
-                                metadesc = "How to contact Leo Herr. ")
+        return render_template("pages/contact.html", pgname="Contact", form=form, added_css="css/contact.css")
 
 
 
