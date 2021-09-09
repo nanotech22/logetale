@@ -3,7 +3,7 @@ import os
 class Config():
 
     #debug mode
-    DEBUG = True
+    DEBUG = False
 
 
     #mail api stuff
