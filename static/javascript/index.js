@@ -15,7 +15,7 @@ doi = {10.2140/ant.2023.17.1281}
 
     if (id == "logprodfmlaqkthy") {
     var text = `@article{name, 
-title={The Log Product Formula in Quantum K-theory}, 
+title={The Log Product Formula in Quantum {$K$}-theory}, 
 volume={175}, 
 DOI={10.1017/S0305004123000063}, 
 number={2}, 
@@ -31,7 +31,7 @@ pages={225–252}}`;
     if (id == "loghochschild") {
 var text = `@ARTICLE{name,
 author = {{Hablicsek}, M{\'a}rton and {Herr}, Leo and {Leonardi}, Francesca},
-title = "{Logarithmic Hochschild co/homology via formality of derived intersections}",
+title = "{Logarithmic {H}ochschild co/homology via formality of derived intersections}",
 journal = {arXiv e-prints},
 keywords = {Mathematics - Algebraic Geometry},
 year = 2023,
@@ -67,7 +67,7 @@ url={https://api.semanticscholar.org/CorpusID:232269743}
     if (id == "costellokthy") {
 var text = `@ARTICLE{name,
 author = {{Chou}, You-Cheng and {Herr}, Leo and {Lee}, Y. -P.},
-title = "{Higher Genus Quantum $K$--theory}",
+title = "{Higher Genus Quantum {$K$}--theory}",
 journal = {arXiv e-prints},
 keywords = {Mathematics - Algebraic Geometry},
 year = 2023,
@@ -126,13 +126,13 @@ primaryClass = {math.AG},
     if (id == "monogen1") {
 var text = `@ARTICLE{name,
 author = {{Arpin}, Sarah and {Bozlee}, Sebastian and {Herr}, Leo and {Smith}, Hanson},
-title = "{The scheme of monogenic generators I: representability}",
+title = "{The scheme of monogenic generators {I}: representability}",
 journal = {Research in Number Theory},
 keywords = {Mathematics - Number Theory},
 year = 2023,
 month = jan,
 volume = {9},
-number = {1},
+number = {14},
 doi = {10.1007/s40993-022-00419-5},
 }`
     }
@@ -142,11 +142,11 @@ doi = {10.1007/s40993-022-00419-5},
     if (id == "monogen2") {
 var text = `@article{name,
 author = "Arpin, Sarah and Bozlee, Sebastian and Herr, Leo and Smith, Hanson",
-title = "The scheme of monogenic generators II: local monogenicity and twists",
+title = "The scheme of monogenic generators {II}: local monogenicity and twists",
 journal = "Research in Number Theory",
 year = "2023",
 volume = "9",
-number = "2",
+number = "43",
 doi = "10.1007/s40993-023-00449-7",
 }
 `
