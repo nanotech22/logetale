@@ -124,13 +124,33 @@ primaryClass = {math.AG},
     
 
     if (id == "monogen1") {
+var text = `@ARTICLE{name,
+author = {{Arpin}, Sarah and {Bozlee}, Sebastian and {Herr}, Leo and {Smith}, Hanson},
+title = "{The scheme of monogenic generators I: representability}",
+journal = {Research in Number Theory},
+keywords = {Mathematics - Number Theory},
+year = 2023,
+month = jan,
+volume = {9},
+number = {1},
+doi = {10.1007/s40993-022-00419-5},
 
+}`
     }
 
     
 
     if (id == "monogen2") {
+var text = `@article{name,
+author = "Arpin, Sarah and Bozlee, Sebastian and Herr, Leo and Smith, Hanson",
+title = "The scheme of monogenic generators II: local monogenicity and twists",
+journal = "Research in Number Theory",
+year = "2023",
+volume = "9",
+number = "2",
+doi = "10.1007/s40993-023-00449-7",
 
+`
     }
 
     
