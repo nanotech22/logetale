@@ -3,7 +3,7 @@ function copyClipboard(id) {
         var text = `@ARTICLE{name,
 author = {{Herr}, Leo},
 title = "{The log product formula}",
-journal = {Algebra \& Number Theory},
+journal = {Algebra \\& Number Theory},
 keywords = {Mathematics - Algebraic Geometry},
 year = 2023,
 volume = {17},
@@ -147,6 +147,7 @@ journal = "Research in Number Theory",
 year = "2023",
 volume = "9",
 number = "43",
+month = may,
 doi = "10.1007/s40993-023-00449-7",
 }
 `
