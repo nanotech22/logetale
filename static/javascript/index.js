@@ -1,6 +1,20 @@
 function copyClipboard(id) {
 if (id == "loggrothendieck"){
-    var text = ``
+    var text = `@ARTICLE{name,
+       author = {{Gross}, Andreas and {Herr}, Leo and {Holmes}, David and {Spelier}, Pim and {Vogel}, Jesse},
+        title = "{The log Grothendieck ring of varieties}",
+      journal = {arXiv e-prints},
+     keywords = {Mathematics - Algebraic Geometry},
+         year = 2024,
+        month = dec,
+          eid = {arXiv:2412.07715},
+        pages = {arXiv:2412.07715},
+archivePrefix = {arXiv},
+       eprint = {2412.07715},
+ primaryClass = {math.AG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241207715G},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}`;
 }
 
 
