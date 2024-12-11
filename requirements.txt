@@ -56,7 +56,7 @@ PyAutoGUI==0.9.54
 pycairo==1.20.1
 pycups==2.0.1
 PyGetWindow==0.0.9
-PyGObject==3.42.1
+
 PyJWT==2.3.0
 pymacaroons==0.13.0
 PyMsgBox==1.0.9
