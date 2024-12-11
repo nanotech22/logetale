@@ -23,15 +23,12 @@
 
     <div class="card" id="aboutme">
         <div class="card-header">
-            <h2 id="jobmarket"><em>I will be joining Virginia Tech in Fall 2024</em></h2>
-        </div>
-        <div class="card-header">
             <h2>About Me</h2>
         </div>
         <div class="row">
             <img class="col-md-4" src="../../static/img/me_profile_in_car.jpg"/>
             <div class="card-body col-md-3">
-                <p>I'm a math postdoc at the Universiteit Leiden with <a href="http://www.davidholmes.nl/">David Holmes</a> studying algebraic geometry,
+                <p>I'm an assistant professor at Virginia Tech studying algebraic geometry,
                 especially log geometry, Gromov-Witten theory, intersection theory, deformation theory, and number theory. </p>
                 My CV:
                 <a href="{{ url_for('static', filename='pdf/curriculum_vitae.pdf') }}">Curriculum Vitae</a>
@@ -113,14 +110,17 @@
                 </li>
 
                 <li>
-                    Log jet spaces:
+                    Other log geometry:
                     <ul>
                         <li>
                             <i>The log tangent space of the log jet space.</i> <a href="https://arxiv.org/abs/2210.08505">arXiv (2022)</a>. Accepted in the <a href="https://lsa.umich.edu/math/centers-outreach/michigan-mathematical-journal.html">Michigan Mathematical Journal</a>. 
                             <button id="logjets" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
                         </li>
 
-
+                        <li>
+                            <i>The log Grothendieck ring of varieties.</i> with Andreas Gross, David Holmes, Pim Spelier, and Jesse Vogel <a href="https://arxiv.org/abs/2412.07715">arXiv (2024)</a>. 
+                            <button id="loggrothendieck" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
                     </ul>
                 </li>
 

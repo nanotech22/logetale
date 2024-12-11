@@ -1,4 +1,9 @@
 function copyClipboard(id) {
+if (id == "loggrothendieck"){
+    var text = ``
+}
+
+
     if (id == "logprodfmla") {
         var text = `@ARTICLE{name,
 author = {{Herr}, Leo},
