@@ -1,4 +1,5 @@
-from flask import Flask, render_template, url_for, Markup, request, flash, session, redirect
+from flask import Flask, render_template, url_for, request, flash, session, redirect
+from markupsafe import Markup
 from flask_mail import Mail, Message
 from flask_wtf import FlaskForm, RecaptchaField
 from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
