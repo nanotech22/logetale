@@ -47,21 +47,18 @@ pages={225–252}}`;
 
 
     if (id == "loghochschild") {
-var text = `@ARTICLE{name,
-author = {{Hablicsek}, M{\'a}rton and {Herr}, Leo and {Leonardi}, Francesca},
-title = "{Logarithmic {H}ochschild co/homology via formality of derived intersections}",
-journal = {arXiv e-prints},
-keywords = {Mathematics - Algebraic Geometry},
-year = 2023,
-month = aug,
-eid = {arXiv:2308.09447},
-pages = {arXiv:2308.09447},
-doi = {10.48550/arXiv.2308.09447},
-archivePrefix = {arXiv},
-eprint = {2308.09447},
-primaryClass = {math.AG},
-adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230809447H},
-adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+var text = `@article{name,
+title = {Logarithmic Hochschild co/homology via formality of derived intersections},
+journal = {Journal of Algebra},
+volume = {686},
+pages = {127-175},
+year = {2026},
+issn = {0021-8693},
+doi = {https://doi.org/10.1016/j.jalgebra.2025.07.048},
+url = {https://www.sciencedirect.com/science/article/pii/S0021869325004703},
+author = {Márton Hablicsek and Leo Herr and Francesca Leonardi},
+keywords = {Hochschild homology, Logarithmic geometry, Artin fans},
+abstract = {We define log Hochschild co/homology for log schemes that behaves well for simple normal crossing pairs (X,D) or toroidal singularities. We prove a Hochschild-Kostant-Rosenberg isomorphism for log smooth schemes, as well as an equivariant version for log orbifolds. We define cyclic homology and compute it in simple cases. We show that log Hochschild co/homology is invariant under log alterations. Our main technical result in log geometry shows the tropicalization (Artin fan) of a product of log schemes X×Y is usually the product of the tropicalizations of X and Y. This and the machinery of formality of derived intersections facilitate a geometric approach to log Hochschild.}
 }
 
 `;
@@ -83,21 +80,15 @@ url={https://api.semanticscholar.org/CorpusID:232269743}
 
 
     if (id == "costellokthy") {
-var text = `@ARTICLE{name,
-author = {{Chou}, You-Cheng and {Herr}, Leo and {Lee}, Y. -P.},
-title = "{Higher Genus Quantum {$K$}--theory}",
-journal = {arXiv e-prints},
-keywords = {Mathematics - Algebraic Geometry},
-year = 2023,
-month = may,
-eid = {arXiv:2305.10137},
-pages = {arXiv:2305.10137},
-doi = {10.48550/arXiv.2305.10137},
-archivePrefix = {arXiv},
-eprint = {2305.10137},
-primaryClass = {math.AG},
-adsurl = {https://ui.adsabs.harvard.edu/abs/2023arXiv230510137C},
-adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+var text = `@article{name,
+  author = {You-Cheng Chou and Leo Herr and Yuan-Pin Lee},
+  title = {Higher-genus quantum $K$-theory},
+  journal = {Pacific Journal of Mathematics},
+  volume = {330},
+  number = {1},
+  pages = {85--121},
+  year = {2024},
+  doi = {10.2140/pjm.2024.330.85}
 }
 `
     }
