@@ -194,7 +194,20 @@ primaryClass = {math.AG},
 `
     }
 
+    
+    if (id == "logrationalpoints") {
+var text = `@article{herr2025loggeometryliftingrational,
+      title={Log geometry and lifting rational points}, 
+      author={Leo Herr and Sara Mehidi and Marta Pieropan and Thibault Poiret},
+      year={2025},
+      eprint={2509.12167},
+      archivePrefix={arXiv},
+      primaryClass={math.AG},
+      url={https://arxiv.org/abs/2509.12167}, 
+}
 
+`
+    }
 
     copyToClipboard(text);
     alert("Copied Bibtex to clipboard!");
