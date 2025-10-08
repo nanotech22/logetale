@@ -166,21 +166,16 @@ doi = "10.1007/s40993-023-00449-7",
 
     if (id == "logjets") {
 var text = `@ARTICLE{name,
-    author = {{Herr}, Leo},
-     title = "{The log tangent space of the log jet space}",
-   journal = {arXiv e-prints},
-  keywords = {Mathematics - Algebraic Geometry},
-      year = 2022,
-     month = oct,
-       eid = {arXiv:2210.08505},
-     pages = {arXiv:2210.08505},
-       doi = {10.48550/arXiv.2210.08505},
-archivePrefix = {arXiv},
-    eprint = {2210.08505},
-primaryClass = {math.AG},
-    adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv221008505H},
-   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  author       = {Leo Herr},
+  title        = {The Log Tangent Space of the Log Jet Space},
+  journal      = {Michigan Mathematical Journal},
+  year         = {2024},
+  pages        = {1--49},
+  doi          = {10.1307/mmj/20226328},
+  note         = {Advance Publication},
+  url          = {https://doi.org/10.1307/mmj/20226328}
 }
+
 
 `
     }
