@@ -166,17 +166,18 @@ doi = "10.1007/s40993-023-00449-7",
 
     if (id == "logjets") {
 var text = `@ARTICLE{name,
-  author       = {Leo Herr},
-  title        = {The Log Tangent Space of the Log Jet Space},
-  journal      = {Michigan Mathematical Journal},
-  year         = {2024},
-  pages        = {1--49},
-  doi          = {10.1307/mmj/20226328},
-  note         = {Advance Publication},
-  url          = {https://doi.org/10.1307/mmj/20226328}
+author = {Leo Herr},
+title = {{The Log Tangent Space of the Log Jet Space}},
+volume = {75},
+journal = {Michigan Mathematical Journal},
+number = {5},
+publisher = {University of Michigan, Department of Mathematics},
+pages = {1021 -- 1069},
+keywords = {14A21, 14E18},
+year = {2025},
+doi = {10.1307/mmj/20226328},
+URL = {https://doi.org/10.1307/mmj/20226328}
 }
-
-
 `
     }
 
