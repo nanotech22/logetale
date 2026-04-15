@@ -181,6 +181,26 @@ URL = {https://doi.org/10.1307/mmj/20226328}
 `
     }
 
+    if (id == "logorbifoldlogHH") {
+        var text = `@ARTICLE{name,
+       author = {{Hablicsek}, Marton and {Herr}, Leo and {Leonardi}, Francesca},
+        title = "{Logarithmic Hochschild (co)homology of logarithmic orbifolds}",
+      journal = {arXiv e-prints},
+     keywords = {Algebraic Geometry},
+         year = 2026,
+        month = apr,
+          eid = {arXiv:2604.12983},
+        pages = {arXiv:2604.12983},
+archivePrefix = {arXiv},
+       eprint = {2604.12983},
+ primaryClass = {math.AG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260412983H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+`
+    }
+
     
     if (id == "logrationalpoints") {
 var text = `@article{herr2025loggeometryliftingrational,
