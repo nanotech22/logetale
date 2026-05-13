@@ -200,6 +200,27 @@ archivePrefix = {arXiv},
 
 `
     }
+    if (id == "logHHfunctoriality") {
+        var text = `@ARTICLE{name,
+       author = {{Gyenge}, {\'A}d{\'a}m and {Hablicsek}, M{\'a}rton and {Herr}, Leo},
+        title = "{Functoriality of logarithmic Hochschild homology of log smooth pairs}",
+      journal = {arXiv e-prints},
+     keywords = {Algebraic Geometry},
+         year = 2026,
+        month = may,
+          eid = {arXiv:2605.11156},
+        pages = {arXiv:2605.11156},
+archivePrefix = {arXiv},
+       eprint = {2605.11156},
+ primaryClass = {math.AG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260511156G},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+`
+    }
 
     
     if (id == "logrationalpoints") {
