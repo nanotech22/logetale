@@ -162,27 +162,6 @@ doi = "10.1007/s40993-023-00449-7",
 `
     }
 
-    if (id == "logdrkthy") {
-        var text = `@ARTICLE{name,
-       author = {{Amini}, Kamyar and {Chou}, You-Cheng and {Herr}, Leo and {Holmes}, David and {Huq-Kuruvilla}, Irit and {Lee}, Yuan-Pin},
-        title = "{On the $K$-theoretic logarithmic double ramification class}",
-      journal = {arXiv e-prints},
-     keywords = {Algebraic Geometry, 14A21, 14D23, 14H10},
-         year = 2026,
-        month = jul,
-          eid = {arXiv:2607.13376},
-        pages = {arXiv:2607.13376},
-          doi = {10.48550/arXiv.2607.13376},
-archivePrefix = {arXiv},
-       eprint = {2607.13376},
- primaryClass = {math.AG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260713376A},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-`
-    }
-
     
 
     if (id == "logjets") {
