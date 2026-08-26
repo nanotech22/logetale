@@ -30,6 +30,24 @@ doi = {10.2140/ant.2023.17.1281}
 }`;
     }
 
+    if (id == "logcohft") {
+        var text = `@ARTICLE{name,
+       author = {{Herr}, Leo and {Holmes}, David and {Spelier}, Pim},
+        title = "{Splitting and loop theorems in logarithmic Gromov--Witten theory}",
+      journal = {arXiv e-prints},
+     keywords = {Algebraic Geometry},
+         year = 2026,
+        month = aug,
+          eid = {arXiv:2608.24718},
+        pages = {arXiv:2608.24718},
+archivePrefix = {arXiv},
+       eprint = {2608.24718},
+ primaryClass = {math.AG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260824718H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}`
+    }
+
 
     if (id == "logprodfmlaqkthy") {
     var text = `@article{name, 
