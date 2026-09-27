@@ -224,15 +224,13 @@ archivePrefix = {arXiv},
 
     
     if (id == "logrationalpoints") {
-var text = `@article{herr2025loggeometryliftingrational,
-      title={Log geometry and lifting rational points}, 
-      author={Leo Herr and Sara Mehidi and Marta Pieropan and Thibault Poiret},
-      year={2025},
-      eprint={2509.12167},
-      archivePrefix={arXiv},
-      primaryClass={math.AG},
-      url={https://arxiv.org/abs/2509.12167}, 
-}
+var text = `@article{name, 
+            title={Log geometry and lifting rational points}, 
+            volume={14}, DOI={10.1017/fms.2026.10275}, 
+            journal={Forum of Mathematics, Sigma}, 
+            author={Herr, Leo and Mehidi, Sara and Pieropan, Marta and Poiret, Thibault}, 
+            year={2026}, 
+            pages={e129}}
 
 `
     }
