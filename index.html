@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#x2115;</text></svg>">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="static/css/index.css" rel="stylesheet" type="text/css">
+  
+  <title>Home</title>
+  <meta name="description" content="Home page of mathematician Leo Herr. Read about Leo's research and teaching or find easy ways to contact him.">
+  <meta name="google-site-verification" content="od4n45Oozzlr8J4zWykw-f2-GGjbRMeCpTxCmH34zIw">
+  <style>html { font-size: 100%; }</style>
+</head>
+<body>
+  <div class="card sticky-top">
+    <ul class="nav justify-content-center nav-fill">
+      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="personal.html">Personal</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+<div class="bgimg-1">
+    <!--Scroll down and click-->
+    <div class="caption">
+    <span class="border" style="font-size:25px; color: white; opacity: 1.0;">LEO HERR &darr;</span>
+    </div>
+  </div>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+
+    
+
+
+
+    <div class="card" id="aboutme">
+        <div class="card-header">
+            <h2>About Me</h2>
+        </div>
+        <div class="row">
+            <img class="col-md-4" src="static/img/me_profile_in_car.jpg"/>
+            <div class="card-body col-md-3">
+                <p>I'm an assistant professor at Virginia Tech studying algebraic geometry,
+                especially log geometry, Gromov-Witten theory, intersection theory, deformation theory, and number theory. </p>
+                My CV:
+                <a href="static/pdf/curriculum_vitae.pdf">Curriculum Vitae</a>
+            </div>
+            <img class="col-md-5" src="static/img/serious_pic.jpeg"/>
+        </div>
+    </div>
+
+
+    <div class="card" id="researchpublications">
+        <div class="card-header">
+            <h2>Papers</h2>
+        </div>
+        <div class="card-body">
+            <ul>
+        <!--
+            To add Bibtex button, copy bibtex code, come up with a new id, then add bibtex code to index.js file
+        -->
+                
+                <li> Log intersection theory:
+                    <ul>
+                        <li>
+                            <i>Splitting and loop theorems in logarithmic Gromov--Witten theory</i> <a href="https://arxiv.org/abs/2608.24718"> arXiv (2026)</a>. 
+                            <button id="logcohft" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                            <i>On the K-theoretic logarithmic double ramification class</i> <a href="https://arxiv.org/abs/2607.13376"> arXiv (2026)</a>. 
+                            <button id="logdrkthy" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li><i>The Log Product Formula</i> <a href="https://arxiv.org/abs/1908.04936">arXiv (2019)</a>, <a href="https://msp.org/ant/2023/17-7/p02.xhtml">Algebra and Number Theory (2023)</a>.
+                        <button id="logprodfmla" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+
+                        <li><i>The Log Product Formula in Quantum K-theory</i> with You-Cheng Chou and Y.P. Lee <a href = "https://arxiv.org/abs/2012.09379">arXiv (2020)</a>, <a href="https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/log-product-formula-in-quantum-ktheory/799DAE6C2CA98CD80D6782DBB6D5A0A4#">Cambridge Philosophical Society (2023)</a>.
+                        <button id="logprodfmlaqkthy" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                            <i>Logarithmic Hochschild co/homology via formality of derived intersections</i> with Márton Hablicsek and Francesca Leonardi <a href="https://arxiv.org/abs/2308.09447">arXiv (2023).</a> <a href="https://www.sciencedirect.com/science/article/pii/S0021869325004703">Journal of Algebra (2026)</a>
+                            <button id="loghochschild" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                            <i>Logarithmic Hochschild (co)homology of logarithmic orbifolds</i> with Márton Hablicsek and Francesca Leonardi <a href="https://arxiv.org/abs/2604.12983">arXiv(2026).</a> <button id="logorbifoldlogHH" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                    </ul>
+                </li>
+            
+                <li> Gromov-Witten theory:
+                    <ul>
+                        <li><i>Costello's Pushforward Formula: Errata and Generalization</i> with Jonathan Wise <a href="https://arxiv.org/abs/2103.10348"> arXiv (2021)</a>, <a href="https://rdcu.be/cOwiF">Manuscripta Mathematica (2022)</a>.
+                        <button id="costello" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li><i>Higher Genus Quantum K-theory</i> with You-Cheng Chou and Y.P. Lee <a href="https://arxiv.org/abs/2305.10137"> arXiv (2023)</a>.<a href="https://msp.org/pjm/2024/330-1/pjm-v330-n1-p04-p.pdf">Pacific Journal of Mathematics (2024) </a>
+                        <button id="costellokthy" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+                <li> Deformation theory:
+                    <ul>
+                        <li>
+                        <i>Deformations of Modules Through Butterflies and Gerbes</i> <a href="https://arxiv.org/abs/1712.01384">arXiv (2017)</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0022404919301288">Journal of Pure and Applied Algebra (2020)</a>.
+                        
+                        <button id="defmsmodules" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                        <i>Deformations of Algebras with 2-Extensions</i> <a href="https://arxiv.org/abs/2204.12040">arXiv (2022)</a>.
+                        <button id="defmsalgs" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                    </ul>
+
+                <li>
+                    Number theory:
+                    <ul>
+                        <li>
+                            <i>Log geometry and lifting rational points</i> with Sara Mehidi, Marta Pieropan, Thibault Poiret <a href="https://arxiv.org/abs/2509.12167">arXiv (2025).</a>
+                            <button id="logrationalpoints" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                            <i>The Scheme of Monogenic Generators I: Representability.</i> with Sarah Arpin, Sebastian Bozlee, and Hanson Smith <a href="https://arxiv.org/abs/2108.07185">arXiv (2022).</a>
+                            <a href="https://link.springer.com/article/10.1007/s40993-022-00419-5">
+                            Research in Number Theory (2023). 
+                            </a>
+                            <button id="monogen1" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                        <li>
+                            <i>The Scheme of Monogenic Generators II: Local Monogenicity and Twists.</i> with Sarah Arpin, Sebastian Bozlee, and Hanson Smith <a href="https://arxiv.org/abs/2205.04620">arXiv (2022).</a>
+                            <a href="https://link.springer.com/article/10.1007/s40993-023-00449-7">
+                            Research in Number Theory (2023).
+                            </a>
+                            <button id="monogen2" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                    </ul>
+                </li>
+
+                
+                <li>
+                    Other log geometry:
+                    <ul>
+                        <li>
+                            <i>The log tangent space of the log jet space.</i> <a href="https://arxiv.org/abs/2210.08505">arXiv (2022)</a>. Accepted in the <a href="https://lsa.umich.edu/math/centers-outreach/michigan-mathematical-journal.html">Michigan Mathematical Journal</a>. 
+                            <button id="logjets" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+
+                        <li>
+                            <i>The log Grothendieck ring of varieties.</i> with Andreas Gross, David Holmes, Pim Spelier, and Jesse Vogel <a href="https://arxiv.org/abs/2412.07715">arXiv (2024)</a> <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.70204">Bulletin of the London Mathematical Society (2025)</a>. 
+                            <button id="loggrothendieck" type="button" class="btn btn-light" onclick="copyClipboard(this.id)">Bibtex</button>
+                        </li>
+                    </ul>
+                </li>
+
+
+            </ul>   
+        </div>
+
+
+    </div>
+
+    <div class="card" id="researchtalks">
+        <div class="card-header">
+            <h2>Recorded talks</h2>
+        </div>
+        <div class="card-body">
+            <p>Here is a talk I gave at Frankfurt in a log geometry conference. It's an introduction to log geometry, virtual fundamental classes, and the ``log intersection theory'' I developed in my thesis. </p>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Nevq28cR1Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+            <h2>Collaborators</h2>
+        </div>
+        <div class="card-body">
+            <a href="http://math.colorado.edu/~jonathan.wise/">Jonathan Wise</a>,
+            <a href="https://www.math.utah.edu/~yplee/">Y.P. Lee</a>,
+            <a href="http://www.davidholmes.nl/">David Holmes</a>, 
+            <a href="https://people.math.ethz.ch/~rahul/">Rahul Pandharipande</a>,
+            <a href="https://sites.google.com/site/mhablicsek/">Márton Hablicsek</a>,
+            <a href="http://math.huji.ac.il/~samouilmolcho/">Sam Molcho</a>,
+            <a href="https://math.colorado.edu/~sebo2151/">Sebastian Bozlee</a>,
+            <a href="https://mcfaddin.github.io/">Patrick McFaddin</a>,
+            <a href="https://www.andrewkobin.com/">Andrew Kobin</a>,
+            <a href="https://www.hansonsmath.info/">Hanson Smith</a>,
+            <a href="https://sites.google.com/view/saraharpin">Sarah Arpin</a>,
+            <a>You-Cheng Chou</a>,
+            <a>Francesca Leonardi</a>
+            ...
+            <!--
+            <a href="https://www.math.utah.edu/~defernex/">Tommaso de Fernex</a>,
+            <a href="https://sites.google.com/view/vaideheethatte">Vaidehee Thatte</a>,
+
+            -->
+        </div>
+    </div>
+
+    <div class="card" id="teaching">
+        <div class="card-header">
+            <h2>Teaching</h2>
+        </div>
+        <div class="card-body">
+            <p class="card-text">If you're a student, our class materials are online. Don't hesitate to <a href="contact.html">contact me</a> with any questions, either 
+                through email or the anonymous google form. There's no such thing as a stupid question! 
+            </p>
+
+            <p class="card-text">
+                I made a <a href="http://www.endlesslinearalgebra.com/">linear algebra review website</a> with problems to help students practice. I'm passionate about teaching and believe 
+                the best way for students to master material is to do lots of practice problems, ideally with friends and classmates. 
+                The site also provides latex for instructors who would like to use it to write problems. 
+                It's under construction. Please <a href="contact.html">contact me</a> if you have feedback about the site. 
+            </p>
+
+
+            <p class="card-text">
+                I have years of experience teaching and designing courses for all levels of math. I've taught Calculus 1, 2, and 3, Introduction to Number theory,
+                Modern Algebra 2 (Rings, Modules, Fields), Linear Algebra, and more. For details, see my <a href="static/pdf/curriculum_vitae.pdf">Curriculum Vitae</a>.
+            </p>
+            <p class="card-text">
+                If you would like me to write you a recommendation letter, please <a href="contact.html">contact me</a> at least a month in advance of the deadline. We can determine whether I would be a good fit for a recommendation letter. 
+                I will need you to fill out <a href="https://forms.gle/ojAAwSEpmRiNF8r37">this form</a> (adapted from <a href="https://www.dhruvrnathan.net/Letters-of-Recommendation">Dhruv Ranganathan</a>) and email me:
+                <ul>
+                    <li>CV</li>
+                    <li>Undergraduate Students: transcript (an unofficial one is perfectly fine)</li>
+                    <li>Undergraduate Students: a list of your mathematics classes and a short description of the classes themselves (i.e. don't make me look up what Math 380 at your university is, just tell me you took abstract algebra)</li>
+                    <li>Research statement.</li>
+                    <li>copies of any papers or theses you have written, or working links.</li>
+                </ul>
+                
+            </p>
+        </div>
+    </div>
+
+
+<div class="card">
+    <div class="card-header">
+        <h2>Student Feedback</h2>
+    </div>
+    <p class="card-text">
+        Taken from anonymous student feedback forms at Utah, Leiden, and Boulder Universities. 
+    </p>
+
+    <p class="card-text">
+        <div class="jumbotron" style="height: 10em;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="d-block w-100" alt="First slide">
+                    If you like a lecture based type professor then he is perfect... He was really great at accommodation my cda [disability services] stuff! He helped me how
+                    he could. He was great at listening to feedback and doing what he could to meet everyone in the middle if he could.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="d-block w-100" alt="Second slide">
+                    Very passionate, really upped my interest for the course during the second half [which Leo taught]. Frequently gave insight into follow-up material and
+                    talked about his research, which I really appreciate. Big fan :)
+                    
+                    <!--He's a capable instructor. He is excited about math, which is important. It's hard to learn when your professors are dull.-->
+                    <br/>
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="d-block w-100" alt="Third slide">
+                    Prof. Leo Herr is clearly passionate about engaging his students. The lectures were well drawn out, he was always prepared and
+                    seemed to have specific goals and strategies for each day of class. I would highly recommend taking a class from Dr. Herr. 
+                </p>
+              </div>
+
+              
+              <div class="carousel-item">
+                <p class="d-block w-100" alt="Fourth slide">
+                    This was a fun class. Your enthusiasm about the topic and teaching were visible and played a huge part of the overall success of
+                    students in your class!
+                    <br/>
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+    </p>
+
+</div>
+
+
+
+
+
+
+
+
+    <div class="card" id="studentreviewprojects">
+        <div class="card-header">
+            <h2>Student Review Projects</h2>
+        </div>
+
+        <div class="card-body">
+            <p class="card-text">
+                Some students I had the privilege of working with made excellent summary projects for algebra-related topics. They may serve as gentle undergraduate-friendly introductions to topics of interest.
+                
+            </p>
+            <p class="card-text">
+                <ul>
+                <li><a href="static/pdf/student_reviews/sheaves_cech.pdf">Sheaves and Cech Cohomology</a></li>
+                <li><a href="static/pdf/student_reviews/topology_cats.pdf">Topology, fundamental groups, and category theory</a></li>
+                <li><a href="static/pdf/student_reviews/crypto.pdf">Cryptography</a></li>
+                <li><a href="static/pdf/student_reviews/p-adics.pdf"><i>p</i>-adic numbers</a></li>
+                <li><a href="static/pdf/student_reviews/math_music.pdf">Math and Music Theory</a></li>
+                <li><a href="static/pdf/student_reviews/tensors_homology.pdf">Tensors and Homology</a></li>
+                </ul>
+            </p>
+            <p class="card-text">Beware typos/errors.</p>
+        </div>
+
+    </div>
+
+    <div class="card" id="mathkids">
+        <div class="card-header"><h2>Math Kids</h2></div>
+
+        <div class="card-body">
+            
+            <p class="card-text">
+                I'm passionate about math outreach, especially to high school and college students, underrepresented minorities and gender identities, 
+                socio-economically disadvantaged people, and anyone enthusiastic about math. This passion led me to invent and run an extracurricular ``Math Kids'' program, 
+                teaching high school and undergraduate students from all walks of life advanced graduate math on an informal, weekly basis from 2015-2018. 
+                I recruited some students through the Boulder Valley School District Mentor Program. 
+            </p>
+
+            <p class="card-text">Topics: Topology, Algebra, Differential Geometry, Algebraic Geometry, Category Theory, and some Analysis.</p>
+
+            <p class="card-text">Alumni include: William Warfield, Sean Riedel, <a href="https://math.montana.edu/directory/gtas.html">Sam McCrosson</a>, <a href="http://www.uvm.edu/~jfrankl2/">Jesse Franklin</a>, <a href="https://math.ucsd.edu/people/graduate-students/">Ryan Mike</a>, <a href="https://www.semanticscholar.org/author/Poramate-Nakkirt/1566595524">Poramate "Pao" Nakkirt</a>, Zach Fox, James Stephan, ...</p>
+        
+        </div>
+    </div>
+
+
+    <div class="card" id="personalwebsitelink">
+        <div class="card-header"><h2>Personal</h2></div>
+        <div class="card-body">
+            <p class="card-text">Visit my <a href="personal.html">personal page</a> for more about Leo Herr.</p>
+        </div>
+    </div>
+
+</div>
+
+
+  
+
+  
+  
+  <div class="bgimg-2">
+
+    <div class="caption">
+        <span class="border" style="font-size:25px;"><a href="contact.html" style="color: white">Contact Me</a></span>
+        </div>
+  </div>
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <script src="static/javascript/index.js"></script> <!-- Path: static\js\myScript.js -->
+
+</body>
+</html>

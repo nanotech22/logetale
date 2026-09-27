@@ -30,24 +30,6 @@ doi = {10.2140/ant.2023.17.1281}
 }`;
     }
 
-    if (id == "logcohft") {
-        var text = `@ARTICLE{name,
-       author = {{Herr}, Leo and {Holmes}, David and {Spelier}, Pim},
-        title = "{Splitting and loop theorems in logarithmic Gromov--Witten theory}",
-      journal = {arXiv e-prints},
-     keywords = {Algebraic Geometry},
-         year = 2026,
-        month = aug,
-          eid = {arXiv:2608.24718},
-        pages = {arXiv:2608.24718},
-archivePrefix = {arXiv},
-       eprint = {2608.24718},
- primaryClass = {math.AG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260824718H},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}`
-    }
-
 
     if (id == "logprodfmlaqkthy") {
     var text = `@article{name, 
@@ -180,27 +162,6 @@ doi = "10.1007/s40993-023-00449-7",
 `
     }
 
-    if (id == "logdrkthy") {
-        var text = `@ARTICLE{name,
-       author = {{Amini}, Kamyar and {Chou}, You-Cheng and {Herr}, Leo and {Holmes}, David and {Huq-Kuruvilla}, Irit and {Lee}, Yuan-Pin},
-        title = "{On the $K$-theoretic logarithmic double ramification class}",
-      journal = {arXiv e-prints},
-     keywords = {Algebraic Geometry, 14A21, 14D23, 14H10},
-         year = 2026,
-        month = jul,
-          eid = {arXiv:2607.13376},
-        pages = {arXiv:2607.13376},
-          doi = {10.48550/arXiv.2607.13376},
-archivePrefix = {arXiv},
-       eprint = {2607.13376},
- primaryClass = {math.AG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260713376A},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-`
-    }
-
     
 
     if (id == "logjets") {
@@ -239,37 +200,18 @@ archivePrefix = {arXiv},
 
 `
     }
-    if (id == "logHHfunctoriality") {
-        var text = `@ARTICLE{name,
-       author = {{Gyenge}, {\'A}d{\'a}m and {Hablicsek}, M{\'a}rton and {Herr}, Leo},
-        title = "{Functoriality of logarithmic Hochschild homology of log smooth pairs}",
-      journal = {arXiv e-prints},
-     keywords = {Algebraic Geometry},
-         year = 2026,
-        month = may,
-          eid = {arXiv:2605.11156},
-        pages = {arXiv:2605.11156},
-archivePrefix = {arXiv},
-       eprint = {2605.11156},
- primaryClass = {math.AG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2026arXiv260511156G},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-
-
-`
-    }
 
     
     if (id == "logrationalpoints") {
-var text = `@article{name, 
-            title={Log geometry and lifting rational points}, 
-            volume={14}, DOI={10.1017/fms.2026.10275}, 
-            journal={Forum of Mathematics, Sigma}, 
-            author={Herr, Leo and Mehidi, Sara and Pieropan, Marta and Poiret, Thibault}, 
-            year={2026}, 
-            pages={e129}}
+var text = `@article{herr2025loggeometryliftingrational,
+      title={Log geometry and lifting rational points}, 
+      author={Leo Herr and Sara Mehidi and Marta Pieropan and Thibault Poiret},
+      year={2025},
+      eprint={2509.12167},
+      archivePrefix={arXiv},
+      primaryClass={math.AG},
+      url={https://arxiv.org/abs/2509.12167}, 
+}
 
 `
     }
